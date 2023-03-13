@@ -12,7 +12,7 @@ class Main():
 
 if __name__ == "__main__":
     app = Main()
-    app.img_estimation("amsetup.jpg", "prosetup.jpg", 
-                        "amtopswing.jpg", "protopswing.jpg",
-                        "amimpact.jpg", "proimpact.jpg",
-                        "amfinish.jpg", "profinish.jpg") 
+    app.img_estimation("images/amsetup.jpg", "images/prosetup.jpg", 
+                        "images/amtopswing.jpg", "images/protopswing.jpg",
+                        "images/amimpact.jpg", "images/proimpact.jpg",
+                        "images/amfinish.jpg", "images/profinish.jpg") 

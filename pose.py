@@ -16,12 +16,12 @@ class PoseEstimator():
                ["Neck", "RHip"], ["RHip", "RKnee"], ["RKnee", "RAnkle"], ["Neck", "LHip"],
                ["LHip", "LKnee"], ["LKnee", "LAnkle"]]
 
-        modelfile = "pose_iter_160000.caffemodel"
-        configfile = "pose_deploy_linevec_faster_4_stages.prototxt"
+        modelfile = "models/pose_iter_160000.caffemodel"
+        configfile = "models/pose_deploy_linevec_faster_4_stages.prototxt"
         self.NET = cv.dnn.readNetFromCaffe(configfile, modelfile)
 
         # for mobileNet
-        #self.NET = cv.dnn.readNetFromTensorflow("graph_opt.pb")
+        #self.NET = cv.dnn.readNetFromTensorflow("models/graph_opt.pb")
 
         self.THR = 0.2
         self.IN_WIDTH = 396
