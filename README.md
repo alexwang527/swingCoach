@@ -1,5 +1,6 @@
 # swingCoach
 Created to compare and score your golf swing against a professional golf swing at (setup, topswing, impact and finish)
+![Screen Shot 2023-03-25 at 12 27 10 PM](https://user-images.githubusercontent.com/127553791/227737500-a8998d5d-bb8d-4291-9299-66208e2d2fcd.png)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
