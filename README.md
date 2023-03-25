@@ -1,8 +1,17 @@
 # swingCoach
 
-App created to compare and score your golf swing against a professional golf swing
+App created to compare and score your golf swing against a professional golf swing at (setup, topswing, impact and finish)
 
-## header H2
+## Built with:
+
+- OpenCV
+- Math
+- Python
+- Numpy
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
 
 Caffemodel too large to upload, download here:
 ```
