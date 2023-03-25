@@ -24,6 +24,7 @@ Make sure to add it to the models folder
 wget http://posefs1.perception.cs.cmu.edu/Users/tsimon/Projects/coco/data/models/mpi/pose_iter_160000.caffemodel
 ```
 ###  Run swingCoach
+Add photos to images folder of your own swing at setup, topswing, impact and finish position to images folder, follow naming format ("amsetup.jpg", "amtopswing.jpg", "amimpact.jpg", "amfinish.jpg") or you can use default amatuer swing images already in images folder.
 ```
 python3 main.py
 ```
