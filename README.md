@@ -1,12 +1,6 @@
 # swingCoach
 App created to compare and score your golf swing against a professional golf swing at (setup, topswing, impact and finish)
 
-## Built with:
-- OpenCV
-- Math
-- Python
-- Numpy
-
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 ### Setup
@@ -14,8 +8,15 @@ To get a local copy up and running follow these simple example steps.
 git clone https://github.com/alexwang527/swingCoach.git
 ```
 ### Install dependencies
+Make sure pip is installed: https://pip.pypa.io/en/stable/installation/
 ```
-npm install
+pip install opencv-python
+```
+```
+pip install numpy
+```
+```
+pip install python-math
 ```
 ### Download Caffe model
 Make sure to add it to the models folderr
