@@ -31,4 +31,4 @@ python3 main.py
 Similarity scores for each swing position will be in terminal
 
 ## Referennces
-[https://github.com/opencv/opencv/blob/master/samples/dnn/openpose.py](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
+https://github.com/CMU-Perceptual-Computing-Lab/openpose
