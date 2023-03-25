@@ -19,7 +19,12 @@ pip install numpy
 pip install python-math
 ```
 ### Download Caffe model
-Make sure to add it to the models folderr
+Make sure to add it to the models folder
 ```
 wget http://posefs1.perception.cs.cmu.edu/Users/tsimon/Projects/coco/data/models/mpi/pose_iter_160000.caffemodel
 ```
+###  Run swingCoach
+```
+python3 main.py
+```
+Similarity scores for each swing position will be in terminal
